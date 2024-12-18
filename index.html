@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roses of the World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="hero">
+        <div class="hero-content">
+            <h1>Roses of the World</h1>
+            <p>Discover the elegance and beauty of roses.</p>
+            <a href="#gallery" class="btn">Explore Gallery</a>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#hero">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About Roses</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Search Section -->
+    <section id="search">
+        <div class="container">
+            <h2>Find Your Favorite Rose</h2>
+            <input type="text" id="searchInput" placeholder="Search roses...">
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="container">
+            <h2>Rose Gallery</h2>
+            <div class="gallery-container" id="galleryContainer">
+                <div class="gallery-item" data-name="Red Rose">
+                    <img src="https://cdn.shopify.com/s/files/1/0012/0451/8977/products/1.png?v=1570856624" alt="Red Rose">
+                    <h3>Red Rose</h3>
+                </div>
+                <div class="gallery-item" data-name="Pink Rose">
+                    <img src="https://www.wallpaperflare.com/static/412/602/365/rose-bud-flower-pink-wallpaper.jpg" alt="Pink Rose">
+                    <h3>Pink Rose</h3>
+                </div>
+                <div class="gallery-item" data-name="Yellow Rose">
+                    <img src="https://wallpaperaccess.com/full/974515.jpg" alt="Yellow Rose">
+                    <h3>Yellow Rose</h3>
+                </div>
+                <div class="gallery-item" data-name="White Rose">
+                    <img src="https://wallsdesk.com/wp-content/uploads/2017/01/Pictures-of-White-Rose-.jpg" alt="White Rose">
+                    <h3>White Rose</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Roses</h2>
+            <p>Roses symbolize love, beauty, and elegance. They come in many colors, each carrying unique meanings and emotions.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Roses of the World. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
